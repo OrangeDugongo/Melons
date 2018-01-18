@@ -1,6 +1,15 @@
-# 🏆 – A Blog Theme for Jekyll
-Trophy is a blog theme for Jekyll built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.
-Trophy is also available in [Ghost](https://github.com/thomasvaeth/trophy-ghost).
+# :watermelon: – A Blog Theme for Jekyll
+Melons is a blog theme for Jekyll, and is based on [Trophy](https://github.com/thomasvaeth/trophy-jekyll) built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.
+
+## Changelog
+
++ **1.0**
+  + Multi author support
+  + Add author page
+  + Add reading time
+  + Improvements to UI/UX
+  + Add favicon
+  + Minified the HTML(Thanks [Anatol Broder](https://github.com/penibelst/jekyll-compress-html))
 
 ## Screenshots
 Blog Page (Posts)

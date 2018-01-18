@@ -1,76 +1,72 @@
-/**
- * Body
- */
+/* BODY */
+
 body {
-  background-color: $color-grey;
+	background-color: $color-grey;
 }
 
-/**
- * Sections
- */
+/* SECTIONS */
+
 section {
-  position: relative;
+	position: relative;
 }
 
 .section-padding {
-  padding: 4em 0;
+	padding: 4em 0;
 
-  &--lg {
-    padding: 6em 0;
-  }
+	&--lg {
+		padding: 6em 0;
+	}
 
-  &--sm {
-    padding: 2em 0;
-  }
+	&--sm {
+		padding: 2em 0;
+	}
 }
 
-/**
- * Class Container (BEM)
- */
+/* CLASS CONTAINER (BEM) */
+
 [class*='__container'] {
-  position: relative;
-  z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 
-/**
- * Blog page
- */
+/* BLOG PAGE */
+
 .previews {
 
-  @media (max-width: $mq-md) {
-    display: flex;
-    flex-direction: column;
-  }
+	@media (max-width: $mq-md) {
+		display: flex;
+		flex-direction: column;
+	}
 
-  & > * {
+	& > * {
 
-    &:first-child {
-      position: relative;
+		&:first-child {
+			position: relative;
 
-      height: 30em;
+			height: 30em;
 
-      background-color: $color-black;
+			background-color: $color-black;
 
-      @media (min-width: $mq-md) {
-        position: fixed;
-        top: 0;
-        left: 0;
+			@media (min-width: $mq-md) {
+				position: fixed;
+				top: 0;
+				left: 0;
 
-        height: 100%;
-        width: 45%;
-      }
+				height: 100%;
+				width: 45%;
+			}
 
-      &:after {
-        @extend %overlay;
-      }
-    }
+			&:after {
+				@extend %overlay;
+			}
+		}
 
-    &:last-child {
-      min-height: 100vh;
+		&:last-child {
+			min-height: 100vh;
 
-      @media (min-width: $mq-md) {
-        margin-left: 45%;
-      }
-    }
-  }
+			@media (min-width: $mq-md) {
+				margin-left: 45%;
+			}
+		}
+	}
 }
