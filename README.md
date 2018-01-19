@@ -12,8 +12,8 @@ Melons is a blog theme for Jekyll, and is based on [Trophy](https://github.com/t
   + Minified the HTML(Thanks [Anatol Broder](https://github.com/penibelst/jekyll-compress-html))
 
 ## Screenshots
-Blog Page (Posts)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-1.png "Desktop screenshot")
+Home Page
+![home](/screenshot/home.png)
 
 Blog Page (Categories)
 ![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
