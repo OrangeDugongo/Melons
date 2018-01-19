@@ -4,17 +4,17 @@ baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: UA-102571130-2
+default_img:
 
 # SEO
 title: Melons
-email:
 description: >- # this means to ignore newlines until "baseurl:"
   :watermelon: – A blog theme for Jekyll.
-twitter_username:
-default_img:
+twitter:
+  username:
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+logo: favicon.ico
+lang: 
 
 # social
 social:
@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - octopress-autoprefixer
 
 
@@ -60,3 +61,5 @@ exclude:
   - README.md
   - LICENSE.txt
   - screenshot
+  - firebase.json # if you use firebase
+

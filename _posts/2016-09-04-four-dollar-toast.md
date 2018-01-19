@@ -7,7 +7,8 @@ date: 2016-09-04
 categories:
   - Juice
   - Brunch
-description:
+description: This is a description
+lang: 
 image: https://unsplash.it/2000/1200?image=1074
 image-sm: https://unsplash.it/500/300?image=1074
 ---
