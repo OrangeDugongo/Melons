@@ -13,19 +13,16 @@ Melons is a blog theme for Jekyll, and is based on [Trophy](https://github.com/t
 
 ## Screenshots
 Home Page
-![home](/screenshot/home.png)
+![home](screenshot/home.png)
 
-Blog Page (Categories)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
+Categories
+![categories](screenshot/categories.png)
 
-Post Page (Mast)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-3.png "Desktop screenshot")
+Authors
+![Post Page](screenshot/authors.png)
 
-Post Page (Profile & Footer)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-4.png "Desktop screenshot")
-
-Archive Page
-![Archive Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
+Post
+![Post](screenshot/post.png)
 
 ## Installation
 All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
@@ -78,7 +75,7 @@ I made everything as easy as possible to edit. Most things can be found in the `
     exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
     permalink: /:year/:month/:day/:title/
 
-* ````exclude```` - Folders that are excluded from `_site_`
+* ````exclude```` - Folders that are excluded from `_site`
 * ````permalink```` - URL structure of blog posts
 
 ### _posts
@@ -101,12 +98,5 @@ This is the YAML front matter block for blog posts.
 * ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
 * ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
 
-## Upcoming Additions
-* Page transitions
-* More styled elements for blog posts
-
-## Issues
-Please submit any issues [here](https://github.com/thomasvaeth/trophy-jekyll/issues).
-
 ## License
-Trophy is licensed under the MIT License.
+Melons is licensed under the MIT License.
