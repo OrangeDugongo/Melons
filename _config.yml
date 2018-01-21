@@ -41,14 +41,12 @@ sass:
 
 # Build settings
 markdown: kramdown
-theme: minima
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-  - octopress-autoprefixer
 
 
 
@@ -62,4 +60,8 @@ exclude:
   - LICENSE.txt
   - screenshot
   - firebase.json # if you use firebase
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - node_modules
 

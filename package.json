@@ -1,0 +1,38 @@
+{
+  "name": "Melons",
+  "version": "1.0.0",
+  "description": "Melons is a blog theme for Jekyll, and is based on [Trophy](https://github.com/thomasvaeth/trophy-jekyll) built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrangeDugongo/Melons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrangeDugongo/Melons/issues"
+  },
+  "homepage": "https://github.com/OrangeDugongo/Melons#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-download": "0.0.1",
+    "gulp-import-css": "^0.1.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-uncss": "^1.0.6",
+    "gulp-util": "^3.0.8"
+  }
+}
