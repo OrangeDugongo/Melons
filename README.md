@@ -3,6 +3,11 @@ Melons is a blog theme for Jekyll, and is based on [Trophy](https://github.com/t
 
 ## Changelog
 
++ **1.1**
+  + seo
+  + gulp
+
+
 + **1.0**
   + Multi author support
   + Add author page
